@@ -61,20 +61,6 @@ this.files = [];
     const target = e.target as HTMLInputElement;
 
    }
-  //  convertDataURIToBinary(dataURI:any) {
-  //     var i:number;
-  //
-  //       var base64Index = dataURI.indexOf(';base64,') + ';base64,'.length;
-  //       var base64 = dataURI.substring(base64Index);
-  //       var raw = window.atob(base64);
-  //       var rawLength = raw.length;
-  //       var array = new Uint8Array(new ArrayBuffer(rawLength));
-  //
-  //       for(i = 0; i < rawLength; i++) {
-  //         array[i] = raw.charCodeAt(i);
-  //       }
-  //       return array;
-  // }
 
   public files: any[];
 
